@@ -1,7 +1,8 @@
 ***
 # TenantSage — Full Definition
 ##TenantSage (n.)
-Author Arthit Pukhampuang   Melbourne Australia    Date: 26/2/2026
+
+**Author Arthit Pukhampuang**   Melbourne Australia    Date: 26/2/2026
 
 **TenantSage is a governed intelligence infrastructure that enforces data sovereignty, access containment, and inference integrity across AI systems by embedding governance directly into the retrieval and reasoning architecture.**
 
