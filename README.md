@@ -1,10 +1,16 @@
 ***
-# TenantSage — Full Definition
-TenantSage (n.)
+# TenantSage
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Copyright © 2026 Arthit Pukhampuang  
+All rights reserved.
 
-**Author Arthit Pukhampuang**   Melbourne Australia    Date: 26/2/2026
+This document, including its text, diagrams, architectures, methods, data structures, and any associated intellectual property, is protected under Australian copyright law.  
 
-**TenantSage is a governed intelligence infrastructure that enforces data sovereignty, access containment, and inference integrity across AI systems by embedding governance directly into the retrieval and reasoning architecture.**
+No part of this work may be reproduced, distributed, transmitted, adapted, or stored in any form or by any means—electronic, mechanical, photocopying, recording, or otherwise—without the prior written permission of the copyright owner, except as expressly permitted by law.
+
+First created in Australia on 15 September 2025.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+**TenantSage (n.) is a governed intelligence infrastructure that enforces data sovereignty, access containment, and inference integrity across AI systems by embedding governance directly into the retrieval and reasoning architecture.**
 
 Unlike policy-based governance tools that observe or audit AI behavior after execution, TenantSage **structurally constrains what AI systems are able to retrieve, combine, and infer**—making unauthorized data exposure, cross-tenant leakage, and non-compliant inference **architecturally impossible by design**.
 
@@ -117,4 +123,5 @@ In this sense, TenantSage is not positioned as optional tooling, but as:
 > **TenantSage is a governed intelligence infrastructure that enforces data sovereignty and inference containment through a governance-enforced hierarchical retrieval architecture, ensuring all AI interactions are structurally compliant, verifiable, and defensible by default.**
 
 ***
-
+© 2026 Arthit Pukhampuang. All rights reserved.  
+Protected under Australian copyright law. First created in Australia on 15 September 2025. Unauthorized use prohibited.
