@@ -1,6 +1,6 @@
 ***
 # TenantSage — Full Definition
-##TenantSage (n.)
+TenantSage (n.)
 
 **Author Arthit Pukhampuang**   Melbourne Australia    Date: 26/2/2026
 
