@@ -1,22 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;600&display=swap');
 
-body {
-  background-color: #fcfaf8;
-  color: #1c1917;
-  font-family: 'Inter', sans-serif;
-  scroll-behavior: smooth;
+:root {
+  --bg: #fcfaf8;
+  --text: #1c1917;
 }
 
-.mono { font-family: 'JetBrains Mono', monospace; }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.mono {
+  font-family: 'JetBrains Mono', monospace;
+}
 
 #mobile-menu {
-  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  overflow: hidden;
   max-height: 0;
   opacity: 0;
-  overflow: hidden;
+  visibility: hidden;
+
+  transition:
+    max-height 0.3s ease-in-out,
+    opacity 0.3s ease-in-out,
+    visibility 0.3s ease-in-out;
 }
 
 #mobile-menu.open {
   max-height: 400px;
   opacity: 1;
+  visibility: visible;
 }
